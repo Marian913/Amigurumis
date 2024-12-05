@@ -1,0 +1,80 @@
+h1{
+	color:blue;
+	}
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+		#formulario-contacto{
+			display:flex;
+			justify-content:center;
+			align-items:column;
+			padding:20px;
+		}
+		#formulario-contacto from{
+			background-color:lightergreen;
+			border: 2px solid black;
+			border-radius:10px;
+			padding:20px;
+			width:90%;
+			max-width:400px;
+		}
+		#formulario-contacto from label{
+			display:block;
+			margin-bottom:10px;
+			font-weight:bold;
+		}
+		#formulario-contacto from input{
+			width:100%;
+			padding:8px;
+			margin-bottom:15px;
+			border:1px solid black;
+			border-radius:5px;
+		}
+		#formulario-contacto from button{
+			width:100%;
+			padding:10px;
+			background-color:black;
+			color:white;
+			border:none;
+			border-radius:5px
+			cursor:pointer;
+		}
+		#formulario-contacto from button:hover{
+			background-color:#555;
+		}
+		footer {
+            text-align:left;
+           margin:20px 0;
+        }
